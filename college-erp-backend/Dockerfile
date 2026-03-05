@@ -10,6 +10,7 @@ ENV PYTHONUNBUFFERED=1
 
 # Copy requirements.txt and install dependencies
 COPY requirements.txt .
+RUN pip install python-multipart
 RUN pip install --no-cache-dir -r requirements.txt gunicorn
 
 # Copy the rest of the application code
