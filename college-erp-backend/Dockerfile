@@ -18,5 +18,5 @@ COPY . .
 # Expose port 10000 for Render
 EXPOSE 10000
 
-# Use gunicorn with uvicorn workers to run the app on port 10000
-CMD ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "app.main:app", "--bind", "0.0.0.0:10000"]
+# Use gunicorn with uvicorn workers to run the app using the environment PORT
+CMD gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.main:app --bind 0.0.0.0:$PORT
