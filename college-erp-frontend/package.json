@@ -37,5 +37,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://8000-firebase-acadmicgit-1772701925313.cluster-nulpgqge5rgw6rwqiydysl6ocy.cloudworkstations.dev"
 }

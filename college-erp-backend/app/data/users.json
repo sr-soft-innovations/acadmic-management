@@ -32,7 +32,7 @@
   {
     "id": "3",
     "username": "hod",
-    "password": "hod123",
+    "password": "$2b$12$Z.vQ.X.vQ.X.vQ.X.vQ.X.vQ.X.vQ.X.vQ.X.vQ.X.vQ.X.vQ.X.vQ.",
     "role": "hod",
     "name": "Dr. Meena Patel",
     "email": "hod@gpcollege.edu",

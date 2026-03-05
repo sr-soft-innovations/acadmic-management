@@ -33,7 +33,7 @@ LOGIN_RATE_LIMIT_PER_IP = int(os.environ.get("LOGIN_RATE_LIMIT_PER_IP", "10"))  
 LOGIN_RATE_LIMIT_WINDOW_SEC = int(os.environ.get("LOGIN_RATE_LIMIT_WINDOW_SEC", "300"))  # 5 min window
 
 # CORS (comma-separated origins; empty = use defaults)
-CORS_ORIGINS = os.environ.get("CORS_ORIGINS", "http://localhost:3000,http://localhost:5173,http://127.0.0.1:3000")
+CORS_ORIGINS = os.environ.get("CORS_ORIGINS", "*")
 CORS_ORIGINS_LIST = [o.strip() for o in CORS_ORIGINS.split(",") if o.strip()] if CORS_ORIGINS else []
 
 # Security headers

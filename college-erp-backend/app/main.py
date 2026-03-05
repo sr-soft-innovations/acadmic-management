@@ -3,7 +3,7 @@ import logging
 from collections import defaultdict
 from datetime import date, timedelta
 
-from fastapi import Depends, FastAPI, HTTPException, Request
+from fastapi import Depends, FastAPI, HTTPException, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from starlette.middleware.base import BaseHTTPMiddleware
@@ -41,22 +41,55 @@ app = FastAPI(
     version="1.0.0",
 )
 
+# CORS configuration: Use regex to allow dynamic cloudworkstations subdomains with credentials.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=CORS_ORIGINS_LIST or ["http://localhost:3000", "http://localhost:5173", "http://127.0.0.1:3000"],
+    allow_origin_regex=r"https://.*\.cloudworkstations\.dev",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["*"],
 )
 
 
+class CloudWorkstationCORSMiddleware(BaseHTTPMiddleware):
+    """
+    Force response headers to match request origin for Cloud Workstations environment.
+    This bypasses strict CORS/Auth proxy issues by echoing the Origin header.
+    """
+    async def dispatch(self, request: Request, call_next):
+        if request.method == "OPTIONS":
+            response = Response()
+            origin = request.headers.get("Origin")
+            if origin:
+                response.headers["Access-Control-Allow-Origin"] = origin
+            response.headers["Access-Control-Allow-Credentials"] = "true"
+            response.headers["Access-Control-Allow-Methods"] = "*"
+            response.headers["Access-Control-Allow-Headers"] = "*"
+            return response
+
+        response = await call_next(request)
+        origin = request.headers.get("Origin")
+        if origin:
+            # Overwrite or set the CORS header to exactly match the requesting origin
+            response.headers["Access-Control-Allow-Origin"] = origin
+            response.headers["Access-Control-Allow-Credentials"] = "true"
+        return response
+
+
+app.add_middleware(CloudWorkstationCORSMiddleware)
+
+
 class SecurityHeadersMiddleware(BaseHTTPMiddleware):
-    """Add security headers to all responses."""
+    """Add security headers to all responses (Temporarily restricted for Cloud Workstations CORS debugging)."""
 
     async def dispatch(self, request, call_next):
         response = await call_next(request)
+        # Filter out headers that might interfere with preflight/cross-origin requests in dev
+        restricted = {"Referrer-Policy", "X-Frame-Options"}
         for k, v in SECURITY_HEADERS.items():
-            response.headers[k] = v
+            if k not in restricted:
+                response.headers[k] = v
         return response
 
 

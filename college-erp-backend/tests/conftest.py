@@ -9,8 +9,7 @@ from fastapi.testclient import TestClient
 @pytest.fixture(autouse=True)
 def use_tmp_data_dir(monkeypatch, tmp_path):
     """Point app.db at a temporary directory so tests don't touch real data."""
-    import app.db as db_module
-    monkeypatch.setattr(db_module, "DATA_DIR", tmp_path)
+    monkeypatch.setattr("app.db.DATA_DIR", tmp_path)
     yield tmp_path
 
 
@@ -53,6 +52,7 @@ def auth_headers(use_tmp_data_dir, client):
         "device_id": "",
         "device_info": "",
         "created_at": "2025-01-01T00:00:00Z",
+        "expires_at": "2099-01-01T00:00:00Z"
     }]
     (tmp_path / "users.json").write_text(json.dumps(users, indent=2), encoding="utf-8")
     (tmp_path / "sessions.json").write_text(json.dumps(sessions, indent=2), encoding="utf-8")
