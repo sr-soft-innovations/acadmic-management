@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "Pharmaceutics I - Mid term",
+    "course": "B.Pharm",
+    "subject": "Pharmaceutics",
+    "subject_id": "1",
+    "exam_type": "internal",
+    "exam_date": "2025-04-15",
+    "start_time": "09:00",
+    "duration_minutes": 180,
+    "room": "Hall A",
+    "result_published": true,
+    "result_published_at": "2026-03-03T16:10:11.096510+00:00"
+  },
+  {
+    "id": "2",
+    "title": "Pharmacology I - Internal",
+    "course": "B.Pharm",
+    "subject": "Pharmacology",
+    "subject_id": "3",
+    "exam_type": "internal",
+    "exam_date": "2025-04-18",
+    "start_time": "10:00",
+    "duration_minutes": 120,
+    "room": "Hall B",
+    "result_published": true,
+    "result_published_at": "2026-03-03T16:10:13.001114+00:00"
+  },
+  {
+    "id": "3",
+    "title": "D.Pharm Semester I - Theory",
+    "course": "D.Pharm",
+    "subject": "General",
+    "subject_id": "",
+    "exam_type": "external",
+    "exam_date": "2025-04-22",
+    "start_time": "09:00",
+    "duration_minutes": 180,
+    "room": "Hall A",
+    "result_published": true,
+    "result_published_at": "2026-03-03T16:10:13.776235+00:00"
+  }
+]

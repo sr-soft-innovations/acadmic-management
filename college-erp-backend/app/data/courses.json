@@ -1,0 +1,232 @@
+[
+  {
+    "id": "1",
+    "name": "Pharmaceutics I",
+    "code": "BP101T",
+    "department": "Pharmaceutics",
+    "semester": "1",
+    "credits": 4,
+    "type": "theory",
+    "hours_per_week": 4
+  },
+  {
+    "id": "2",
+    "name": "Pharmaceutical Chemistry I",
+    "code": "BP102T",
+    "department": "Pharmaceutical Chemistry",
+    "semester": "1",
+    "credits": 4,
+    "type": "theory",
+    "hours_per_week": 4
+  },
+  {
+    "id": "3",
+    "name": "Pharmacognosy I",
+    "code": "BP103T",
+    "department": "Pharmacognosy",
+    "semester": "1",
+    "credits": 3,
+    "type": "theory",
+    "hours_per_week": 3
+  },
+  {
+    "id": "4",
+    "name": "Human Anatomy & Physiology I",
+    "code": "BP104T",
+    "department": "Pharmacology",
+    "semester": "1",
+    "credits": 4,
+    "type": "theory",
+    "hours_per_week": 4
+  },
+  {
+    "id": "6",
+    "name": "Pharm. Chemistry Lab I",
+    "code": "BP102P",
+    "department": "Pharmaceutical Chemistry",
+    "semester": "1",
+    "credits": 2,
+    "type": "practical",
+    "hours_per_week": 4
+  },
+  {
+    "id": "7",
+    "name": "Pharmaceutics II",
+    "code": "BP201T",
+    "department": "Pharmaceutics",
+    "semester": "2",
+    "credits": 4,
+    "type": "theory",
+    "hours_per_week": 4
+  },
+  {
+    "id": "8",
+    "name": "Pharmacology I",
+    "code": "BP202T",
+    "department": "Pharmacology",
+    "semester": "2",
+    "credits": 4,
+    "type": "theory",
+    "hours_per_week": 4
+  },
+  {
+    "id": "9",
+    "name": "Physical Pharmaceutics",
+    "code": "BP203T",
+    "department": "Pharmaceutics",
+    "semester": "2",
+    "credits": 3,
+    "type": "theory",
+    "hours_per_week": 3
+  },
+  {
+    "id": "10",
+    "name": "Pharmacology Lab I",
+    "code": "BP202P",
+    "department": "Pharmacology",
+    "semester": "2",
+    "credits": 2,
+    "type": "practical",
+    "hours_per_week": 4
+  },
+  {
+    "id": "11",
+    "name": "Pharmaceutical Analysis I",
+    "code": "BP301T",
+    "department": "Pharmaceutical Chemistry",
+    "semester": "3",
+    "credits": 4,
+    "type": "theory",
+    "hours_per_week": 4
+  },
+  {
+    "id": "12",
+    "name": "Pharmacology II",
+    "code": "BP302T",
+    "department": "Pharmacology",
+    "semester": "3",
+    "credits": 4,
+    "type": "theory",
+    "hours_per_week": 4
+  },
+  {
+    "id": "13",
+    "name": "Pharmacognosy II",
+    "code": "BP303T",
+    "department": "Pharmacognosy",
+    "semester": "3",
+    "credits": 3,
+    "type": "theory",
+    "hours_per_week": 3
+  },
+  {
+    "id": "14",
+    "name": "Pharm. Analysis Lab I",
+    "code": "BP301P",
+    "department": "Pharmaceutical Chemistry",
+    "semester": "3",
+    "credits": 2,
+    "type": "practical",
+    "hours_per_week": 4
+  },
+  {
+    "id": "15",
+    "name": "Industrial Pharmacy I",
+    "code": "BP401T",
+    "department": "Pharmaceutics",
+    "semester": "4",
+    "credits": 4,
+    "type": "theory",
+    "hours_per_week": 4
+  },
+  {
+    "id": "16",
+    "name": "Pharmaceutical Jurisprudence",
+    "code": "BP402T",
+    "department": "Pharmacy Practice",
+    "semester": "4",
+    "credits": 3,
+    "type": "theory",
+    "hours_per_week": 3
+  },
+  {
+    "id": "17",
+    "name": "Pharmacology III",
+    "code": "BP403T",
+    "department": "Pharmacology",
+    "semester": "4",
+    "credits": 4,
+    "type": "theory",
+    "hours_per_week": 4
+  },
+  {
+    "id": "18",
+    "name": "Medicinal Chemistry",
+    "code": "BP404T",
+    "department": "Pharmaceutical Chemistry",
+    "semester": "4",
+    "credits": 4,
+    "type": "theory",
+    "hours_per_week": 4
+  },
+  {
+    "id": "19",
+    "name": "Hospital & Clinical Pharmacy",
+    "code": "BP501T",
+    "department": "Pharmacy Practice",
+    "semester": "5",
+    "credits": 4,
+    "type": "theory",
+    "hours_per_week": 4
+  },
+  {
+    "id": "20",
+    "name": "Biopharmaceutics",
+    "code": "BP502T",
+    "department": "Pharmaceutics",
+    "semester": "5",
+    "credits": 3,
+    "type": "theory",
+    "hours_per_week": 3
+  },
+  {
+    "id": "21",
+    "name": "Pharmaceutical Biotechnology",
+    "code": "BP503T",
+    "department": "Pharmacology",
+    "semester": "5",
+    "credits": 3,
+    "type": "theory",
+    "hours_per_week": 3
+  },
+  {
+    "id": "22",
+    "name": "Clinical Pharmacy Lab",
+    "code": "BP501P",
+    "department": "Pharmacy Practice",
+    "semester": "5",
+    "credits": 2,
+    "type": "practical",
+    "hours_per_week": 4
+  },
+  {
+    "id": "23",
+    "name": "Pharmaceutical Formulations",
+    "code": "BP601T",
+    "department": "Pharmaceutics",
+    "semester": "6",
+    "credits": 4,
+    "type": "theory",
+    "hours_per_week": 4
+  },
+  {
+    "id": "24",
+    "name": "Quality Assurance",
+    "code": "BP602T",
+    "department": "Pharmaceutical Chemistry",
+    "semester": "6",
+    "credits": 3,
+    "type": "theory",
+    "hours_per_week": 3
+  }
+]

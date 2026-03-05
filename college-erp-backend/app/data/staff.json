@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. Meera Nair",
+    "designation": "Principal",
+    "department": "Pharmacy",
+    "email": "meera.nair@college.edu",
+    "phone": "9876500001"
+  },
+  {
+    "id": "2",
+    "name": "Prof. Suresh Kumar",
+    "designation": "HOD",
+    "department": "Pharmaceutics",
+    "email": "suresh.kumar@college.edu",
+    "phone": "9876500002"
+  },
+  {
+    "id": "3",
+    "name": "Dr. Anitha Rajan",
+    "designation": "Assistant Professor",
+    "department": "Pharmacology",
+    "email": "anitha.rajan@college.edu",
+    "phone": "9876500003"
+  }
+]

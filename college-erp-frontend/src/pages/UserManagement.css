@@ -1,0 +1,163 @@
+.user-management-page .page-header-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.user-mgmt-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.user-search-input {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--border-color, #ccc);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  min-width: 160px;
+}
+
+.user-role-filter {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--border-color, #ccc);
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.impersonation-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  border-radius: 8px;
+  color: #92400e;
+}
+
+.impersonation-banner strong {
+  font-weight: 600;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.status-enabled {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status-disabled {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.status-locked {
+  background: #fef3c7;
+  color: #92400e;
+  margin-left: 0.25rem;
+}
+
+.user-management-page .btn-sm {
+  margin-right: 0.5rem;
+}
+
+.user-management-page .modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.user-management-page .modal-content {
+  background: var(--card-bg, #fff);
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 420px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.user-management-page .modal-content h3 {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+}
+
+.user-management-page .modal-content .form-row {
+  margin-bottom: 1rem;
+}
+
+.user-management-page .modal-content .form-row label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: 500;
+}
+
+.user-management-page .modal-content .form-row input,
+.user-management-page .modal-content .form-row select {
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--border-color, #ccc);
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.user-management-page .modal-content .form-muted {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  color: var(--text-muted, #666);
+}
+
+.user-management-page .modal-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.user-management-page .modal-actions .btn-primary {
+  margin-left: auto;
+}
+
+.btn-warning {
+  background: #dc2626;
+  color: #fff;
+  border: none;
+  padding: 0.35rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-warning:hover {
+  background: #E11B21;
+}
+
+.btn-success {
+  background: #059669;
+  color: #fff;
+  border: none;
+  padding: 0.35rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-success:hover {
+  background: #047857;
+}

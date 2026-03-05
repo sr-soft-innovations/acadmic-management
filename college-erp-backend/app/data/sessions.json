@@ -1,0 +1,31 @@
+[
+  {
+    "id": "HrlKUuOifsvls63uUBzLfpw4bYIFL6p2",
+    "user_id": "1",
+    "device_id": "web-1772530693477",
+    "device_info": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+    "created_at": "2026-03-03T11:20:24.503321+00:00"
+  },
+  {
+    "id": "DLY9S2JD-w_Ut6csOlM54BxxrlbOvJnJ",
+    "user_id": "1",
+    "device_id": "web-1772530693477",
+    "device_info": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+    "created_at": "2026-03-03T11:21:55.084008+00:00"
+  },
+  {
+    "id": "93S_EbqHzElY73dU9zCsV7tYHm3UTpL7",
+    "user_id": "1",
+    "device_id": "",
+    "device_info": "",
+    "created_at": "2026-03-03T15:57:24.148384+00:00"
+  },
+  {
+    "id": "jj0Qgd3xc135hcLipp_5CDHypWiHWkTF",
+    "user_id": "1",
+    "device_id": "web-1772607297617",
+    "device_info": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+    "created_at": "2026-03-04T14:36:47.375714+00:00",
+    "expires_at": "2026-03-11T14:36:47.375714+00:00"
+  }
+]

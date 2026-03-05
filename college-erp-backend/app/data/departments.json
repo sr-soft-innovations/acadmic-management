@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "Pharmaceutics",
+    "code": "PHARMA",
+    "head_of_department": "Prof. Suresh Kumar",
+    "description": "Department of Pharmaceutics - Drug formulation and delivery systems",
+    "established_year": "2005",
+    "phone": "9876500010",
+    "email": "pharmaceutics@college.edu",
+    "created_at": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "name": "Pharmacology",
+    "code": "PCOL",
+    "head_of_department": "Dr. Anitha Rajan",
+    "description": "Department of Pharmacology - Drug action and therapeutic use",
+    "established_year": "2005",
+    "phone": "9876500011",
+    "email": "pharmacology@college.edu",
+    "created_at": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "3",
+    "name": "Pharmaceutical Chemistry",
+    "code": "PCHEM",
+    "head_of_department": "",
+    "description": "Department of Pharmaceutical Chemistry - Drug design and synthesis",
+    "established_year": "2006",
+    "phone": "9876500012",
+    "email": "pharma.chem@college.edu",
+    "created_at": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "4",
+    "name": "Pharmacognosy",
+    "code": "PCOG",
+    "head_of_department": "",
+    "description": "Department of Pharmacognosy - Natural product drug discovery",
+    "established_year": "2006",
+    "phone": "9876500013",
+    "email": "pharmacognosy@college.edu",
+    "created_at": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "5",
+    "name": "Pharmacy Practice",
+    "code": "PP",
+    "head_of_department": "",
+    "description": "Department of Pharmacy Practice - Clinical pharmacy and patient care",
+    "established_year": "2010",
+    "phone": "9876500014",
+    "email": "pharmacy.practice@college.edu",
+    "created_at": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "6",
+    "name": "Pharmacy",
+    "code": "PHR",
+    "head_of_department": "Dr. Meera Nair",
+    "description": "General Pharmacy Department",
+    "established_year": "2005",
+    "phone": "9876500015",
+    "email": "pharmacy@college.edu",
+    "created_at": "2024-01-15T10:00:00Z"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "program": "B.Pharm",
+    "semester_number": 1,
+    "name": "Semester I"
+  },
+  {
+    "id": "2",
+    "program": "B.Pharm",
+    "semester_number": 2,
+    "name": "Semester II"
+  },
+  {
+    "id": "3",
+    "program": "B.Pharm",
+    "semester_number": 3,
+    "name": "Semester III"
+  },
+  {
+    "id": "5",
+    "program": "D.Pharm",
+    "semester_number": 1,
+    "name": "Semester I"
+  },
+  {
+    "id": "6",
+    "program": "D.Pharm",
+    "semester_number": 2,
+    "name": "Semester II"
+  }
+]

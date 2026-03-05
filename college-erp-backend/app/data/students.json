@@ -1,0 +1,172 @@
+[
+  {
+    "id": "1",
+    "name": "Arun Kumar",
+    "roll_no": "BPharm2024001",
+    "course": "B.Pharm",
+    "semester": "1",
+    "email": "arun.kumar@example.com",
+    "phone": "9876543210",
+    "gender": "Male"
+  },
+  {
+    "id": "2",
+    "name": "Priya Sharma",
+    "roll_no": "BPharm2024002",
+    "course": "B.Pharm",
+    "semester": "1",
+    "email": "priya.sharma@example.com",
+    "phone": "9876543211",
+    "gender": "Female"
+  },
+  {
+    "id": "3",
+    "name": "Rahul Singh",
+    "roll_no": "DPharm2024001",
+    "course": "D.Pharm",
+    "semester": "1",
+    "email": "rahul.singh@example.com",
+    "phone": "9876543212",
+    "gender": "Male"
+  },
+  {
+    "id": "4",
+    "name": "Sneha Patel",
+    "roll_no": "BPharm2023001",
+    "course": "B.Pharm",
+    "semester": "3",
+    "email": "sneha.patel@example.com",
+    "phone": "9876543213",
+    "gender": "Female"
+  },
+  {
+    "id": "5",
+    "name": "Vikram Desai",
+    "roll_no": "PharmD2024001",
+    "course": "Pharm.D",
+    "semester": "1",
+    "email": "vikram.desai@example.com",
+    "phone": "9876543214",
+    "gender": "Male"
+  },
+  {
+    "id": "6",
+    "name": "Kavitha Menon",
+    "roll_no": "BPharm2024003",
+    "course": "B.Pharm",
+    "semester": "2",
+    "email": "kavitha.menon@example.com",
+    "phone": "9876543215",
+    "gender": "Female"
+  },
+  {
+    "id": "7",
+    "name": "Deepak Joshi",
+    "roll_no": "DPharm2024002",
+    "course": "D.Pharm",
+    "semester": "2",
+    "email": "deepak.joshi@example.com",
+    "phone": "9876543216",
+    "gender": "Male"
+  },
+  {
+    "id": "8",
+    "name": "Ananya Reddy",
+    "roll_no": "BPharm2023002",
+    "course": "B.Pharm",
+    "semester": "4",
+    "email": "ananya.reddy@example.com",
+    "phone": "9876543217",
+    "gender": "Female",
+    "date_of_birth": "",
+    "blood_group": "",
+    "address": "",
+    "city": "",
+    "state": "",
+    "pincode": "",
+    "admission_date": "",
+    "academic_year": "",
+    "previous_school": "",
+    "board": "",
+    "guardian_name": "",
+    "guardian_relation": "",
+    "guardian_phone": "",
+    "guardian_email": "",
+    "guardian_address": "",
+    "guardian_occupation": "",
+    "category": "",
+    "batch": "",
+    "section": "",
+    "unique_id": ""
+  },
+  {
+    "id": "9",
+    "name": "Suresh Nair",
+    "roll_no": "PharmD2024002",
+    "course": "Pharm.D",
+    "semester": "2",
+    "email": "suresh.nair@example.com",
+    "phone": "9876543218",
+    "gender": "Male"
+  },
+  {
+    "id": "10",
+    "name": "Meghna Iyer",
+    "roll_no": "BPharm2024004",
+    "course": "B.Pharm",
+    "semester": "1",
+    "email": "meghna.iyer@example.com",
+    "phone": "9876543219",
+    "gender": "Female"
+  },
+  {
+    "id": "11",
+    "name": "Arjun Pillai",
+    "roll_no": "DPharm2023001",
+    "course": "D.Pharm",
+    "semester": "3",
+    "email": "arjun.pillai@example.com",
+    "phone": "9876543220",
+    "gender": "Male"
+  },
+  {
+    "id": "12",
+    "name": "Ritika Chauhan",
+    "roll_no": "BPharm2023003",
+    "course": "B.Pharm",
+    "semester": "4",
+    "email": "ritika.chauhan@example.com",
+    "phone": "9876543221",
+    "gender": "Female"
+  },
+  {
+    "id": "13",
+    "name": "Mohit Verma",
+    "roll_no": "PharmD2023001",
+    "course": "Pharm.D",
+    "semester": "3",
+    "email": "mohit.verma@example.com",
+    "phone": "9876543222",
+    "gender": "Male"
+  },
+  {
+    "id": "14",
+    "name": "Pooja Gupta",
+    "roll_no": "DPharm2024003",
+    "course": "D.Pharm",
+    "semester": "1",
+    "email": "pooja.gupta@example.com",
+    "phone": "9876543223",
+    "gender": "Female"
+  },
+  {
+    "id": "15",
+    "name": "Karan Malhotra",
+    "roll_no": "BPharm2022001",
+    "course": "B.Pharm",
+    "semester": "5",
+    "email": "karan.malhotra@example.com",
+    "phone": "9876543224",
+    "gender": "Male"
+  }
+]

@@ -1,0 +1,5 @@
+[
+  {"id": "1", "student_id": "1", "subject": "Pharmaceutics", "exam_type": "internal", "marks": 78, "max_marks": 100, "semester": "1", "exam_date": "2025-02-15"},
+  {"id": "2", "student_id": "1", "subject": "Pharmacology", "exam_type": "internal", "marks": 82, "max_marks": 100, "semester": "1", "exam_date": "2025-02-18"},
+  {"id": "3", "student_id": "2", "subject": "Pharmaceutics", "exam_type": "internal", "marks": 85, "max_marks": 100, "semester": "1", "exam_date": "2025-02-15"}
+]

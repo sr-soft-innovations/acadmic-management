@@ -1,0 +1,28 @@
+[
+  {
+    "id": "2",
+    "day_of_week": 1,
+    "slot_start": "10:00",
+    "slot_end": "11:00",
+    "subject_id": "2",
+    "staff_id": "2",
+    "room": "Room 101",
+    "program": "B.Pharm",
+    "semester": "1",
+    "slot_type": "theory",
+    "lab_batch": ""
+  },
+  {
+    "id": "3",
+    "day_of_week": 2,
+    "slot_start": "09:00",
+    "slot_end": "10:00",
+    "subject_id": "3",
+    "staff_id": "3",
+    "room": "Room 102",
+    "program": "B.Pharm",
+    "semester": "2",
+    "slot_type": "theory",
+    "lab_batch": ""
+  }
+]

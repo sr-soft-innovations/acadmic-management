@@ -1,0 +1,6 @@
+.loading-skeleton { padding: 1rem 0; }
+.skeleton-header { height: 2rem; background: linear-gradient(90deg, var(--color-bg, #f1f5f9) 25%, #e2e8f0 50%, var(--color-bg, #f1f5f9) 75%); background-size: 200% 100%; animation: skeleton-shimmer 1.5s infinite; border-radius: 4px; margin-bottom: 1rem; max-width: 200px; }
+.skeleton-table { display: flex; flex-direction: column; gap: 0.5rem; }
+.skeleton-row { display: flex; gap: 1rem; }
+.skeleton-cell { flex: 1; height: 1.5rem; background: linear-gradient(90deg, var(--color-bg, #f1f5f9) 25%, #e2e8f0 50%, var(--color-bg, #f1f5f9) 75%); background-size: 200% 100%; animation: skeleton-shimmer 1.5s infinite; border-radius: 4px; }
+@keyframes skeleton-shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }

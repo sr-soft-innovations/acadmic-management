@@ -1,0 +1,9 @@
+.backup-page .page-title { margin-bottom: 0.5rem; }
+.backup-page .dashboard-welcome { margin-bottom: 1.5rem; color: var(--text-muted, #666); }
+.backup-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+.backup-card { padding: 1.5rem; }
+.backup-card h3 { margin: 0 0 0.5rem; font-size: 1.1rem; }
+.backup-card p { margin: 0 0 1rem; font-size: 0.9rem; color: var(--text-muted, #666); }
+.btn-file { display: inline-block; cursor: pointer; }
+.btn-file input { position: absolute; opacity: 0; width: 0; height: 0; }
+.btn-file:has(input:disabled) { opacity: 0.7; cursor: not-allowed; }

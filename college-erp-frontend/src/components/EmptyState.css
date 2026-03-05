@@ -1,0 +1,5 @@
+.empty-state { text-align: center; padding: 3rem 2rem; }
+.empty-state-icon { font-size: 3rem; display: block; margin-bottom: 1rem; opacity: 0.7; }
+.empty-state-title { margin: 0 0 0.5rem; font-size: 1.2rem; color: var(--text-muted, #666); }
+.empty-state-message { margin: 0 0 1rem; font-size: 0.95rem; color: var(--text-muted, #888); }
+.empty-state-action { display: inline-block; margin-top: 0.5rem; }

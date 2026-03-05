@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "course": "B.Pharm",
+    "semester": "1",
+    "tuition_fee": 50000,
+    "exam_fee": 2000,
+    "lab_fee": 3000,
+    "total": 55000
+  },
+  {
+    "id": "2",
+    "course": "D.Pharm",
+    "semester": "1",
+    "tuition_fee": 35000,
+    "exam_fee": 1500,
+    "lab_fee": 2000,
+    "total": 38500
+  }
+]

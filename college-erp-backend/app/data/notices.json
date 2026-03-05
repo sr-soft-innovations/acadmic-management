@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "Semester Exam Schedule Released",
+    "body": "The internal examination schedule for Semester 1 has been published. Please check the exams section.",
+    "target_roles": ["student", "faculty"],
+    "target_courses": [],
+    "expiry_date": "2025-04-30",
+    "created_at": "2025-03-01T10:00:00+00:00",
+    "attachments": []
+  },
+  {
+    "id": "2",
+    "title": "Fee Payment Deadline",
+    "body": "Last date for fee payment without fine: 15th March 2025. Parents can pay online via the portal.",
+    "target_roles": ["student", "parent"],
+    "target_courses": [],
+    "expiry_date": "2025-03-15",
+    "created_at": "2025-03-02T09:00:00+00:00",
+    "attachments": []
+  }
+]

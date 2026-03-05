@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "NAAC Peer Team Visit",
+    "type": "accreditation",
+    "date": "2026-04-15",
+    "status": "scheduled",
+    "description": "NAAC cycle 2 peer team assessment"
+  },
+  {
+    "id": "2",
+    "title": "PCI Inspection",
+    "type": "regulatory",
+    "date": "2026-05-20",
+    "status": "scheduled",
+    "description": "Pharmacy Council of India annual inspection"
+  },
+  {
+    "id": "3",
+    "title": "University Affiliation Review",
+    "type": "affiliation",
+    "date": "2026-06-10",
+    "status": "scheduled",
+    "description": "Affiliating university curriculum compliance review"
+  }
+]

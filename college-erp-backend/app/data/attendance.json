@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1",
+    "student_id": "1",
+    "date": "2025-03-01",
+    "status": "present",
+    "course_id": ""
+  },
+  {
+    "id": "2",
+    "student_id": "1",
+    "date": "2025-03-02",
+    "status": "present",
+    "course_id": ""
+  },
+  {
+    "id": "3",
+    "student_id": "1",
+    "date": "2025-03-03",
+    "status": "absent",
+    "course_id": ""
+  },
+  {
+    "id": "4",
+    "student_id": "2",
+    "date": "2025-03-01",
+    "status": "present",
+    "course_id": ""
+  },
+  {
+    "id": "5",
+    "student_id": "2",
+    "date": "2025-03-02",
+    "status": "present",
+    "course_id": ""
+  },
+  {
+    "id": "6",
+    "student_id": "1",
+    "date": "2026-03-03",
+    "status": "present",
+    "subject_id": "",
+    "course_id": "",
+    "source": "manual",
+    "period_number": 1,
+    "slot_type": "theory"
+  },
+  {
+    "id": "7",
+    "student_id": "2",
+    "date": "2026-03-03",
+    "status": "present",
+    "subject_id": "",
+    "course_id": "",
+    "source": "manual",
+    "period_number": 1,
+    "slot_type": "theory"
+  },
+  {
+    "id": "8",
+    "student_id": "1",
+    "date": "2026-03-03",
+    "status": "present",
+    "subject_id": "",
+    "course_id": "",
+    "source": "bulk",
+    "period_number": 1,
+    "slot_type": "lab"
+  },
+  {
+    "id": "8",
+    "student_id": "2",
+    "date": "2026-03-03",
+    "status": "present",
+    "subject_id": "",
+    "course_id": "",
+    "source": "bulk",
+    "period_number": 1,
+    "slot_type": "lab"
+  },
+  {
+    "id": "9",
+    "student_id": "1",
+    "date": "2026-03-04",
+    "status": "absent",
+    "subject_id": "",
+    "course_id": "",
+    "source": "manual",
+    "period_number": 1,
+    "slot_type": "theory"
+  },
+  {
+    "id": "10",
+    "student_id": "2",
+    "date": "2026-03-04",
+    "status": "present",
+    "subject_id": "",
+    "course_id": "",
+    "source": "manual",
+    "period_number": 1,
+    "slot_type": "theory"
+  },
+  {
+    "id": "11",
+    "student_id": "10",
+    "date": "2026-03-04",
+    "status": "absent",
+    "subject_id": "",
+    "course_id": "",
+    "source": "manual",
+    "period_number": 1,
+    "slot_type": "theory"
+  }
+]

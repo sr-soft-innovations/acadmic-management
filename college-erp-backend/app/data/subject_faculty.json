@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "subject_id": "1",
+    "staff_id": "2"
+  },
+  {
+    "id": "2",
+    "subject_id": "2",
+    "staff_id": "2"
+  },
+  {
+    "id": "3",
+    "subject_id": "3",
+    "staff_id": "3"
+  },
+  {
+    "id": "4",
+    "subject_id": "4",
+    "staff_id": "3"
+  },
+  {
+    "id": "5",
+    "subject_id": "1",
+    "staff_id": "1"
+  }
+]

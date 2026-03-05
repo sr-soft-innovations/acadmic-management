@@ -1,0 +1,140 @@
+.result-analytics {
+  padding: 0 1rem 1rem;
+}
+
+.result-analytics .page-title {
+  margin-bottom: 0.25rem;
+}
+
+.result-analytics .dashboard-welcome {
+  margin-bottom: 1rem;
+  color: var(--text-muted, #555);
+}
+
+.result-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color, #ddd);
+  padding-bottom: 0.5rem;
+}
+
+.result-tab {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color, #ddd);
+  background: var(--bg-secondary, #f5f5f5);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.result-tab:hover {
+  background: var(--bg-hover, #eee);
+}
+
+.result-tab.active {
+  background: var(--primary, #0d47a1);
+  color: #fff;
+  border-color: var(--primary, #0d47a1);
+}
+
+.result-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.result-filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.result-filters input {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--border-color, #ccc);
+  border-radius: 4px;
+  min-width: 120px;
+}
+
+.result-panels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .result-panels {
+    grid-template-columns: 1fr;
+  }
+}
+
+.result-panel {
+  background: var(--card-bg, #fff);
+  border: 1px solid var(--border-color, #eee);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.result-panel h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+.result-panel h4 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1rem;
+}
+
+.pass-pct-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.pass-pct-cards .stat-card {
+  min-width: 100px;
+  padding: 1rem;
+  background: linear-gradient(135deg, var(--primary, #0d47a1) 0%, #1565c0 100%);
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.stat-card .stat-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.stat-card .stat-label {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.result-analytics .chart-block {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: var(--bg-secondary, #fafafa);
+  border-radius: 8px;
+}
+
+.result-analytics .charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.result-analytics .table-wrap {
+  overflow-x: auto;
+}
+
+.result-analytics .placeholder-text {
+  color: var(--text-muted, #666);
+  font-style: italic;
+}

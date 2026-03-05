@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "title": "Pharmaceutics Assignment 1",
+    "subject": "Pharmaceutics",
+    "course": "B.Pharm",
+    "semester": "1",
+    "due_date": "2025-03-15",
+    "max_marks": 10,
+    "description": "Write a report on tablet formulation.",
+    "created_at": "2025-03-01T10:00:00+00:00"
+  },
+  {
+    "id": "2",
+    "title": "Pharmacology Quiz",
+    "subject": "Pharmacology",
+    "course": "B.Pharm",
+    "semester": "1",
+    "due_date": "2025-03-20",
+    "max_marks": 5,
+    "description": "Online quiz on drug classification.",
+    "created_at": "2025-03-03T11:00:00+00:00"
+  }
+]
